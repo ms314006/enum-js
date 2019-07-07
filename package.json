@@ -2,7 +2,7 @@
   "name": "lightweight-enum-js",
   "version": "1.0.0",
   "description": "Achieve Enum of JavaScript",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "jest",
     "build": "./node_modules/.bin/babel src --out-dir lib",
