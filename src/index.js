@@ -9,4 +9,4 @@ const newEnum = (descriptions) => {
   return Object.freeze(result);
 };
 
-export default newEnum;
+export { newEnum };

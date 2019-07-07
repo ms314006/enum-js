@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
+exports.newEnum = void 0;
 
 require("core-js/modules/web.dom.iterable");
 
@@ -19,5 +19,4 @@ const newEnum = descriptions => {
   return Object.freeze(result);
 };
 
-var _default = newEnum;
-exports.default = _default;
+exports.newEnum = newEnum;
