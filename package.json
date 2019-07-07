@@ -1,13 +1,16 @@
 {
   "name": "enum-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Achieve Enum of JavaScript",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "./node_modules/.bin/babel src --out-dir lib"
+    "build": "./node_modules/.bin/babel src --out-dir lib",
+    "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
-  "keywords": ["Enum"],
+  "keywords": [
+    "Enum"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -17,6 +20,7 @@
     "@babel/cli": "^7.5.0",
     "@babel/core": "^7.5.0",
     "@babel/preset-env": "^7.5.0",
+    "coveralls": "^3.0.4",
     "eslint": "^5.3.0",
     "eslint-config-airbnb-base": "^13.2.0",
     "eslint-plugin-import": "^2.18.0",
