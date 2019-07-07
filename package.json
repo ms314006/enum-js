@@ -1,11 +1,11 @@
 {
   "name": "lightweight-enum-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Achieve Enum of JavaScript",
-  "main": "./lib/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "./node_modules/.bin/babel src --out-dir lib",
+    "build": "./node_modules/.bin/babel src --out-dir ./",
     "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "keywords": [
