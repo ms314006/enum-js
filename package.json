@@ -1,5 +1,5 @@
 {
-  "name": "enum-js",
+  "name": "lightweight-enum-js",
   "version": "1.0.0",
   "description": "Achieve Enum of JavaScript",
   "main": "index.js",
